@@ -1,15 +1,13 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package com.anhembi.ads.model;
 
 import java.util.List;
 
 /**
- *
- * @author neto
+ * @author Gustavo Martins Oliveira - RA 20706520
+ * @author Gustavo Soares Handa - RA 20856177
+ * @author Norberto Ferreira dos Santos Neto - RA 20735810
+ * @author Rodrigo Fabiano - 20585554
+ * @author Rodrigo Ferreira Bravo - 20742535
  */
 public class Campeonato {
 
@@ -17,7 +15,7 @@ public class Campeonato {
     private List<Partida> partidas;
     private List<Time> times;
 
-//após iniciado, os times e jogos não podem ser adicionados.
+    //após iniciado, os times e jogos não podem ser adicionados.
     //somente os jogos podem ser manipulados, mas não excluídos.
     private Boolean campeonatoIniciado;
 

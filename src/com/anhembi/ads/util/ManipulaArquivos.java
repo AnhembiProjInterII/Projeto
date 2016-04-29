@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package com.anhembi.ads.util;
 
 import com.anhembi.ads.model.Campeonato;
@@ -13,11 +8,19 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 
 /**
- *
- * @author neto
+ * @author Gustavo Martins Oliveira - RA 20706520
+ * @author Gustavo Soares Handa - RA 20856177
+ * @author Norberto Ferreira dos Santos Neto - RA 20735810
+ * @author Rodrigo Fabiano - 20585554
+ * @author Rodrigo Ferreira Bravo - 20742535
  */
 public class ManipulaArquivos {
 
+    /**
+     * Grava os dados no arquivo
+     * @param campeonato
+     * @return mensagem de sucesso ou erro
+     */
     public String gravaDados(Campeonato campeonato) {
 
         String message;
@@ -35,7 +38,11 @@ public class ManipulaArquivos {
 
         return message;
     }
-
+    
+    /**
+     * Le os dados gravados no arquivo
+     * @return retorna um objeto do tipo Campeonato
+     */
     public Campeonato leDados() {
 
         Campeonato campeonato;
